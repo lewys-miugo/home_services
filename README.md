@@ -1,6 +1,14 @@
+# Home Service by Lewys.
+
+## Description
+This project is a side project tor refresh and exercise my Laravel Skills. The only additional packages use are Jetstream (for authentication) and Livewire. It has 3 levels of auth, The admin(ADM), Service provider(SVP) and customers(USR).
+
 ## Setting up Home Services to run in your local machine.
 
 ## Already have laravel environment configured:
+<p>Git clone:</p>
+`git clone https://github.com/lewys-miugo/home_services.git
+`
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
