@@ -14,9 +14,16 @@
                         data-kenburns="on" data-duration="6000" data-ease="Linear.easeNone" data-bgfit="130"
                         data-bgfitend="100" data-bgpositionend="right center">
                 </li>
+                <li data-transition="slidehorizontal" data-slotamount="1" data-masterspeed="1000"
+                    data-saveperformance="off" data-title="Slide">
+                    <img src="{{asset('assets/img/team/1.jpg')}}" alt="fullslide1" data-bgposition="top center"
+                        data-kenburns="on" data-duration="6000" data-ease="Linear.easeNone" data-bgfit="130"
+                        data-bgfitend="100" data-bgpositionend="right center">
+                </li>
             </ul>
             <div class="tp-bannertimer"></div>
         </div>
+        
         <div class="filter-title">
             <div class="title-header">
                 <h2 style="color:#fff;">BOOK A SERVICE</h2>
@@ -108,7 +115,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="titles">
-                            <h2>SurfsideMedia <span>Choice</span> of Services</h2>
+                            <h2>Home-Services <span>Choice</span> of Services</h2>
                             <i class="fa fa-plane"></i>
                             <hr class="tall">
                         </div>
