@@ -21,7 +21,7 @@ Middleware multi-level auth & routes
 
 
 ## Run Locally 
-Assuming you have laravel environment configured in your machine(composer,npm,lampp & php)
+Assuming you have laravel environment configured in your machine(composer,npm,lampp & php) otherwise refer to Laravel documention further below.
 
 Clone the project
 
