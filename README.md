@@ -1,18 +1,77 @@
-# Home Service by Lewys.
 
-## Description
-This project is a side project tor refresh and exercise my Laravel Skills. The only additional packages use are Jetstream (for authentication) and Livewire. It has 3 levels of auth, The admin(ADM), Service provider(SVP) and customers(USR).
+# Home Service web-app with laravel.
 
-## Setting up Home Services to run in your local machine.
+This project is a platform to connetct service providers with customers for various home environment.
 
-## Already have laravel environment configured:
-<p>Git clone:</p>
+## Demo
 
-```php
-git clone https://github.com/lewys-miugo/home_services.git
+
+![Alt Text](./public/images/readme/home-serice.png)
+
+
+
+## Run Locally 
+Assuming you have laravel environment configured in your machine(composer,npm,lampp & php)
+
+Clone the project
+
+```bash
+  git clone https://github.com/lewys-miugo/home_services.git
 ```
 
-![Front-end images](/images/readme/home-serice.png)
+Go to the project directory
+
+```bash
+  cd home_services
+```
+
+Install Composer dependencies
+
+```bash
+  Composer install
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+Run npm on a different terminal tab but still in the projects directory
+
+```bash
+  npm run build && npm run dev
+```
+Create a .env File
+
+```bash
+cp .env.example .env
+```
+Configure and run your database and add the configurations to the .env file
+
+```php
+DB_DATABASE=home_services
+DB_USERNAME=root
+DB_PASSWORD=
+```
+Generate Application Key:
+
+```bash
+php artisan key:generate
+```
+Run Database Migrations:
+```bash
+php artisan migrate
+```
+Start the server
+
+```bash
+  php artisan serve
+```
+
+Access the Application: Open your web browser and navigate to 
+```bash
+http://localhost:8000
+```
 
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
