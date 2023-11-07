@@ -7,7 +7,8 @@ This project is a side project tor refresh and exercise my Laravel Skills. The o
 
 ## Already have laravel environment configured:
 <p>Git clone:</p>
-```
+
+```php
 git clone https://github.com/lewys-miugo/home_services.git
 ```
 
