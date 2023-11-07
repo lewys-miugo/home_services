@@ -8,12 +8,12 @@ This project is a platform to connetct service providers with customers for vari
 Home Page
 ![Alt Text](./public/images/readme/home-serice.png)
 
-Login page
+Footer
 ![Login page](./public/images/readme/home-serice2.png)
 Middleware multi-level auth routes
-![Login page](./public/images/readme/home-serice2.png)
-![Login page](./public/images/readme/home-serice2.png)
-![Login page](./public/images/readme/home-serice2.png)
+![Login page](./public/images/readme/home-serice3.png)
+![Login page](./public/images/readme/home-serice4.png)
+![Login page](./public/images/readme/home-serice5.png)
 
 
 
