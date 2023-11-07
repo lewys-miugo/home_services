@@ -11,7 +11,7 @@ Home Page
 Footer
 ![Login page](./public/images/readme/home-serice2.png)
 Middleware multi-level auth routes
-![Login page](./public/images/readme/home-serice3.png)
+![Login page](./public/images/readme/homeserice3.png)
 ![Login page](./public/images/readme/home-serice4.png)
 ![Login page](./public/images/readme/home-serice5.png)
 
