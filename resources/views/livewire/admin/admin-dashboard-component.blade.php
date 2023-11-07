@@ -1,3 +1,4 @@
 <div>
-    {{-- If your happiness depends on money, you will never be happy with yourself. --}}
+    {{-- Because she competes with no one, no one can compete with her. --}}
+    <h1>Admin-Dashboard</h1>
 </div>

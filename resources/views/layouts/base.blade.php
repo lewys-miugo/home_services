@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>SurfsideMedia - Online Service Provider for your House Needs</title>
+    <title>Home Services - Online Service Provider for your House Needs</title>
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -23,29 +23,29 @@
     @vite(['resources/js/app.js'])
 </head>
 <body>
-    <img src="{{asset('buda.jpg')}}" alt="">
+    <!-- <img src="{{asset('buda.jpg')}}" alt=""> -->
     <div id="layout">
         <div class="info-head">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
                         <ul class="visible-md visible-lg text-left">
-                            <li><a href="tel:+911234567890"><i class="fa fa-phone"></i> +91-1234567890</a></li>
-                            <li><a href="mailto:contact@surfsidemedia.in"><i class="fa fa-envelope"></i>
-                                    contact@surfsidemedia.in</a></li>
+                            <li><a href="tel:+911234567890"><i class="fa fa-phone"></i> +254712345678</a></li>
+                            <li><a href="mailto:contact@homeservices.co.ke"><i class="fa fa-envelope"></i>
+                                    contact@homeservices.co.ke</a></li>
                         </ul>
                         <ul class="visible-xs visible-sm">
                             <li class="text-left"><a href="tel:+911234567890"><i class="fa fa-phone"></i>
-                                    +91-1234567890</a></li>
+                                    +254712345678</a></li>
                             <li class="text-right"><a href="index.php/changelocation.html"><i
-                                        class="fa fa-map-marker"></i> Faridabad, Haryana</a></li>
+                                        class="fa fa-map-marker"></i> Westlands, Nairobi</a></li>
                         </ul>
                     </div>
                     <div class="col-md-6">
                         <ul class="visible-md visible-lg text-right">
                             <li><i class="fa fa-comment"></i> Live Chat</li>
-                            <li><a href="index.php/changelocation.html"><i class="fa fa-map-marker"></i> Faridabad,
-                                    Haryana</a></li>
+                            <li><a href="index.php/changelocation.html"><i class="fa fa-map-marker"></i> Westlands,
+                                    Nairobi</a></li>
                         </ul>
                     </div>
                 </div>
@@ -58,7 +58,8 @@
 
                 <ul class="collapse">
                     <li class="title">
-                        <a href="index.php.html"><img src="{{asset('images/logo.png')}}"></a>
+                    <!-- <img src="{{asset('images/logo.png')}}"> -->
+                        <a href="index.php.html"><h1 style="color:blue">HOME SERVICES</h1></a>
                     </li>
                     <li> <a href="javascript:void(0);">Air Conditioners</a>
                         <ul class="drop-down one-column hover-fade">
@@ -128,26 +129,26 @@
                             @if (Auth::user()->utype==='ADM')
                                 <li class="login-form"> <a href="#" title="Register">Admin Account</a>
                                     <ul class="drop-down one-column hover-fade">
-                                        <li><a href="#">Dashboard</a></li>
+                                        <li><a href="{{route('admin.dashboard')}}">Dashboard</a></li>
                                         <li><a href="{{route('logout')}}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">Logout</a></li>
                                     </ul>
                                 </li>
                             @elseif (Auth::user()->utype==='SVP')
                                 <li class="login-form"> <a href="#" title="Register">SVP Account</a>
                                     <ul class="drop-down one-column hover-fade">
-                                        <li><a href="#">Dashboard</a></li>
+                                        <li><a href="{{route('svp.dashboard')}}">Dashboard</a></li>
                                         <li><a href="{{route('logout')}}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">Logout</a></li>
                                     </ul>
                                 </li>
                             @else
                                 <li class="login-form"> <a href="#" title="Register">My Account</a>
                                     <ul class="drop-down one-column hover-fade">
-                                        <li><a href="#">Dashboard</a></li>
+                                        <li><a href="{{route('user.dashboard')}}">Dashboard</a></li>
                                         <li><a href="{{route('logout')}}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">Logout</a></li>
                                     </ul>
                                 </li>   
                             @endif
-                            <form id="logout-form" action="{{'logout'}}" method="post">
+                            <form id="logout-form" action="{{'logout'}}" method="post" style="display:none">
                                 @csrf
                             </form>
                         @else
@@ -211,14 +212,14 @@
                         <h3>CONTACT US</h3>
                         <ul class="contact_footer">
                             <li class="location">
-                                <i class="fa fa-map-marker"></i> <a href="#"> Faridabad, Haryana, India</a>
+                                <i class="fa fa-map-marker"></i> <a href="#"> Westlands, Nairobi, Kenya</a>
                             </li>
                             <li>
                                 <i class="fa fa-envelope"></i> <a
-                                    href="mailto:contact@surfsidemedia.in">contact@surfsidemedia.in</a>
+                                    href="mailto:contact@homeservices.co.ke">contact@homeservices.co.ke</a>
                             </li>
                             <li>
-                                <i class="fa fa-headphones"></i> <a href="tel:+911234567890">+91-1234567890</a>
+                                <i class="fa fa-headphones"></i> <a href="tel:+911234567890">+254712345678</a>
                             </li>
                         </ul>
                         <h3 style="margin-top: 10px">FOLLOW US</h3>
@@ -234,14 +235,14 @@
                         <h3 class="mlist-h">CONTACT US</h3>
                         <ul class="contact_footer mlist">
                             <li class="location">
-                                <i class="fa fa-map-marker"></i> <a href="#"> Faridabad, Haryana, India</a>
+                                <i class="fa fa-map-marker"></i> <a href="#"> Westlands, Nairobi, Kenya</a>
                             </li>
                             <li>
                                 <i class="fa fa-envelope"></i> <a
-                                    href="mailto:contact@surfsidemedia.in">contact@surfsidemedia.in</a>
+                                    href="mailto:contact@homeservices.co.ke">contact@homeservices.co.ke</a>
                             </li>
                             <li>
-                                <i class="fa fa-phone"></i> <a href="tel:+911234567890">+91-1234567890</a>
+                                <i class="fa fa-phone"></i> <a href="tel:+911234567890">+254712345678</a>
                             </li>
                         </ul>
                         <ul class="social mlist-h">
@@ -265,7 +266,7 @@
                             </ul>
                         </div>
                         <div class="col-md-6">
-                            <p class="text-xs-center crtext">&copy; 2021 SurfsideMedia. All Rights Reserved.</p>
+                            <p class="text-xs-center crtext">&copy; 2023 Home Services. All Rights Reserved.</p>
                         </div>
                     </div>
                 </div>                
