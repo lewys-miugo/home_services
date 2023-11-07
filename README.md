@@ -9,11 +9,13 @@ Home Page
 ![Alt Text](./public/images/readme/home-serice.png)
 
 Footer
-![Login page](./public/images/readme/home-serice2.png)
-Middleware multi-level auth routes
+![Footer section](./public/images/readme/home-serice2.png)
+login Page
 ![Login page](./public/images/readme/homeserice3.png)
-![Login page](./public/images/readme/home-serice4.png)
-![Login page](./public/images/readme/home-serice5.png)
+
+Middleware multi-level auth & routes
+![routes](./public/images/readme/home-serice4.png)
+![kernel](./public/images/readme/home-serice5.png)
 
 
 
