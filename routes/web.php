@@ -8,7 +8,7 @@ use App\Livewire\HomeComponent;
 use App\Livewire\Admin\AdminDashboardComponent;
 
 use App\Livewire\Customer\CustomerDashboardComponent;
-
+use App\Livewire\ServiceCategoriesComponent;
 use App\Livewire\Sprovider\SproviderDashboardComponent;
 
 
@@ -28,6 +28,7 @@ use App\Livewire\Sprovider\SproviderDashboardComponent;
 // });
 
 Route::get('/',HomeComponent::class)->name('home');
+Route::get('/service-categories',ServiceCategoriesComponent::class)->name('home.service.categories');
 
 // For customer
 Route::middleware(['auth:sanctum',config('jetstream.auth_session'),'verified',])->group(function () {
