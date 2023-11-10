@@ -1,10 +1,16 @@
 <?php
 
-use App\Livewire\Admin\AdminDashboardComponent;
-use App\Livewire\Customer\CustomerDashboardComponent;
-use App\Livewire\HomeComponent;
-use App\Livewire\Sprovider\SproviderDashboardComponent;
 use Illuminate\Support\Facades\Route;
+
+
+use App\Livewire\HomeComponent;
+
+use App\Livewire\Admin\AdminDashboardComponent;
+
+use App\Livewire\Customer\CustomerDashboardComponent;
+
+use App\Livewire\Sprovider\SproviderDashboardComponent;
+
 
 /*
 |--------------------------------------------------------------------------
